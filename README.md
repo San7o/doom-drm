@@ -17,7 +17,7 @@ in the console (no X or wayland session):
 ./doomgeneric -iwad /path/to/iwad/dir/*
 ```
 
-Keys are `poll`ed directly from `/dev/input/input0`, the screen is
+Keys are `poll`ed directly from `/dev/input/event0`, the screen is
 rendered using the `libdrm` api.
 
 Many many thanks to the doomgeneric project for providing an easy to
